@@ -89,3 +89,15 @@
         line-height: 1.3rem;
     }
 }
+
+&.title-humble {
+    @extend .title;
+
+    &::before {
+        background: none;
+    }
+
+    &::after {
+        background: none;
+    }
+}
