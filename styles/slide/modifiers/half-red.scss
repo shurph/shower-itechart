@@ -26,3 +26,10 @@
         background-color: $red;
     }
 }
+
+&.half-black {
+    @extend .half-red;
+    > div:nth-child(2n + 1) {
+        background-color: black;
+    }
+}
